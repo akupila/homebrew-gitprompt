@@ -1,9 +1,9 @@
 class Gitprompt < Formula
   desc "git status in the prompt"
   homepage "https://github.com/akupila/gitprompt"
-  url "https://github.com/akupila/gitprompt/releases/download/v0.1.0/gitprompt_0.1.0_darwin_amd64.tar.gz"
-  version "v0.1.0"
-  sha256 "bf191f15620bf776da69deb741d4d42a1f8dbce6eb4383cf505e3fc9f156dfde"
+  url "https://github.com/akupila/gitprompt/releases/download/v0.1.1/gitprompt_0.1.1_darwin_amd64.tar.gz"
+  version "0.1.1"
+  sha256 "0fee93542a51af53e01bd04ee78938f8c2d97d77f54c06db94681a4a76183447"
 
   def install
     bin.install "gitprompt"
